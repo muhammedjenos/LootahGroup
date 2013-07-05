@@ -1,16 +1,5 @@
 $(function () {
-    //check login info display member-nav if logged in, otherwise display public
 	var loggedin = window.ISLOGGEDIN;
-	// if (loggedin == 1) {
-	// 	$(".member").css({
-	// 		"display": "inline-block"
-	// 	});
-	// 	$(".guest").css({
-	// 		"display": "none"
-	// 	});
-		
-		
-	}
 	
 	//remove the UL if catalogues are not found inside sub catalogues
 	if($(".catalogueItemNotFound").length){$('.catalogueItemNotFound').parent().remove()};	

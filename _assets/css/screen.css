@@ -88,6 +88,7 @@ h4 {
 	font-size: 16px;
 	color: #89662a;
 	text-transform: uppercase;
+	margin-bottom: 16px!important;
 }
 #aside h4 {
 	font-size: 13px;
@@ -1154,15 +1155,18 @@ br.clearabove {
 .open-catalog-view.open span {
 	background: url("images/arrow.png") no-repeat scroll 0 -9px transparent;
 }
+
+
 .subcatalog-list ul {
-	margin: 0 0 0 -12px;
+	margin: 0;
 	padding: 0;
-	width: 209px;
+	list-style: none;
 }
 .subcatalog-list ul li {
 	background: none;
 	padding: 0 8px 0px 12px;
-	margin: 0;
+	margin: 0 0 0 -12px;
+	width: 188px;
 }
 .subcatalog-list ul li.selected{
 	background-color: #E6E0D9;
@@ -1176,6 +1180,18 @@ br.clearabove {
 }
 .subcatalog-list ul li a:hover, .subcatalog-list ul li a:active, .subcatalog-list ul li.selected a:link {
 	text-decoration: none;
+}
+#perfect-scroller {
+	position: relative;
+	height: 216px;
+	overflow: hidden;
+	margin-left: -12px;
+	width: 208px;
+	
+}
+#perfect-scroller li{
+	padding-left: 22px;
+	width: 190px;
 }
 .category-picture {
 	float: right;
@@ -1262,6 +1278,7 @@ p.price {
 }
 .catalog-image img {
 	width: 100%;
+	margin-top: 0;
 }
 .catalog-image:hover > .clip-small-overlay, .product-image:hover > .clip-small-overlay, .preview-image:hover > .clip-small-overlay {
 	top: 0px;
@@ -1491,6 +1508,7 @@ button.close {
 	position: relative;
 	overflow: hidden;
 	border: 2px solid #e6dfd9;
+	height: 136px;
 }
 .quick-view-window {
 	background: none repeat scroll 0 0 #FFFFFF;

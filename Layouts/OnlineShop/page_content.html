@@ -1,8 +1,10 @@
+<link rel="stylesheet" type="text/css" href="/_assets/css/perfect-scrollbar-0.4.1.min.css"/>
+<script type="text/javascript" src="/_assets/js/perfect-scrollbar-0.4.1.min.js"></script>
 <div class="row-fluid">
 	<div id="catalogue-teaser" class="aside span3">
 		<div class="categories">
 			<h4 class="catalogue-name"></h4>
-			<div class="subcatalog-list"></div>
+			<div class="subcatalog-list" id="perfect-scroller"></div>
 		</div>
 	</div>
 	<div class="category-picture about span9">
@@ -34,6 +36,13 @@
             //first get the parent catalogue from the bread crumbs  
             var parentCatalogueName = $(".breadcrumbs a:nth-last-child(2)").text();
             var parentCatalogueLink = $(".breadcrumbs a:nth-last-child(2)").attr('href');
+            console.log(parentCatalogueName);
+           	if(parentCatalogueName == "Home")
+           	{
+           		parentCatalogueName = "Products";
+           		var parentCatalogueLink = $(".breadcrumbs a:nth-last-child(1)").attr('href');
+           	}; 
+            
             $(".catalogue-name").text(parentCatalogueName);
             console.log($(".breadcrumbs a:nth-last-child(2)").attr('href'));
 
@@ -41,6 +50,7 @@
             $.get(parentCatalogueLink, function(data) {
 			  var results = $(data).find('div.catalogue-list').html();
 			  $('div.subcatalog-list').html(results);
+			  $('#perfect-scroller	').perfectScrollbar();
 
 			//highlight the current navigation
 			$(".subcatalog-list a").each(function()
@@ -49,7 +59,8 @@
                      $(this).parent().addClass("selected");
                 }
        		});
-			});
-        });
-       
-    </script>
+
+		});
+    });
+   
+</script>
