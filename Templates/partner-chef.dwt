@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <link rel="stylesheet" type="text/css" href="/_assets/css/royalslider.css" />
+    <link rel="stylesheet" type="text/css" href="/_assets/css/rs-default.css" />
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+
+    
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="body-wrapper">
+            <div class="row-fluid">
+
+                <div id="catalogue-teaser" class="aside span3">
+                    <div class="categories">
+                        <h4>Partner Chefs</h4>
+                        <div class="subcatalog-list">
+                            <ul>{module_webapps,14774,a,,,,,100,,1,weight}</ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="main-body" class="about span9">
+                    <!-- TemplateBeginEditable name="ContentArea" -->
+                    {tag_pagecontent}
+                    <!-- TemplateEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+    <script type="text/javascript" src="/_assets/js/jquery.royalslider.min.js"></script>
+    <script>
+        $(function(){
+             
+            $(".partner-slideshow > img").each(function(){
+                if($(this).attr("src") == "")
+                {
+                    $(this).remove();
+                }
+            });
+            $('.partner-slideshow').royalSlider({
+                autoPlay: {
+                    // autoplay options go gere
+                    enabled: true,
+                    pauseOnHover: true,
+                    delay : 5000
+                },
+                autoHeight: false,
+                arrowsNav: false,
+                fadeinLoadedSlide: false,
+                controlNavigation: 'bullets',
+                imageScaleMode: 'none',
+                imageAlignCenter:false,
+                loop: true,
+                keyboardNavEnabled: true,
+                usePreloader: true,
+                transitionType:"fade"
+              });
+        })
+       
+    </script>
+</body>
+</html>

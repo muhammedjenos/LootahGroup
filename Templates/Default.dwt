@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"} 
+        <div class="body-wrapper default-template">
+            <div class="row-fluid">
+                <div id="main-body" class="about span12">
+                    <!-- TemplateBeginEditable name="ContentArea" -->
+                    {tag_pagecontent}
+                    <!-- TemplateEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+</html>

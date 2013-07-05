@@ -1,0 +1,90 @@
+<h2>{tag_ordername}</h2>
+<p>
+    Thanks for shopping at Lootah Premium Foods.  Your order number is <strong>{tag_orderid}</strong>. <br>
+    Here's a summary of the order you placed.
+</p>
+<p>
+    
+</p>
+<hr>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; vertical-align: top;">
+                <h2>Shipping To:</h2>
+                <table style="width: auto;">
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align: top; font-weight: bold;">Attention:</td>
+                            <td style="vertical-align: top;">{tag_shippingattention}</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; font-weight: bold;">Address:</td>
+                            <td style="vertical-align: top;">{tag_addressshipping}</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; font-weight: bold;">Instructions:</td>
+                            <td style="vertical-align: top;">{tag_shippinginstructions}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td style="width: 50%; vertical-align: top;">
+                <h2>Billing To:</h2>
+                <table style="width: auto;">
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align: top; font-weight: bold;">Name:</td>
+                            <td style="vertical-align: top;">{tag_recipientname}</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; font-weight: bold;">Address:</td>
+                            <td style="vertical-align: top;">{tag_addressbilling}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2>Your Order Includes:</h2>
+<table class="table customer-order-items">
+    <thead>
+        <tr>
+            <th style="text-align: left; width: 50%;">Products</th>
+            <th style="text-align: left; width: 15%;">Price</th>
+            <th style="text-align: left; width: 15%;">Quantity</th>
+            <th style="text-align: left; width: 20%;">Amount</th>
+        </tr>
+    </thead>
+        <tbody>
+        <tr>
+            <td style="text-align: left; width: 50%;">
+                {tag_productname}
+                
+            </td>
+            <td style="text-align: left; width: 15%;">
+                {tag_productextaxamount}
+                
+            </td>
+            <td style="text-align: left; width: 15%;">
+                {tag_productquantity}
+                
+            </td>
+            <td style="text-align: left; width: 20%;">
+                {tag_producttotal}
+                
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="text-align: right; width: 80%; font-weight: bold;">Total:</td>
+            <td style="text-align: left; width: 20%; font-weight: bold;">{tag_invoicetotal}</td>
+        </tr>
+    </tbody>
+</table>
+<p><a href="/users/history" class="btn btn-primary">Back to account history</a></p>

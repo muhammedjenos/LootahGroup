@@ -1,0 +1,62 @@
+<h1>Your Shopping Cart</h1>
+<div id="shopping-cart">
+<div class="row-tags">
+<ul>
+    <li class="first-tag">Items</li>
+    <li class="second-tag">Details</li>
+    <li>Cost</li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="cart-item product-remove">{tag_productremovelink} </div>
+<div class="cart-item product-image">  {tag_productimage}</div>
+<div class="cart-item product-title"> {tag_productname_nolink}</div>
+<div class="cart-item product-price">{tag_productextaxamount} </div>
+<div class="cart-item product-qty"> {tag_productquantity} </div>
+<div class="cart-item product-tax"> {tag_producttaxamount} </div>
+<div class="cart-item product-total"> {tag_producttotal} </div>
+<!--end shopping-cart-->
+<div class="clear"></div>
+{tag_clearcartbutton}
+<div id="cart-footer">
+<div class="cart-opt opt-total">
+<div class="opt-total-title">Sub-Total:</div>
+<div class="opt-total-data">{tag_productsubtotal}</div>
+<div class="opt-total-title">Shipping and Handling:</div>
+<div class="opt-total-data">{tag_shippingtotal}</div>
+<div class="opt-total-title">Sales Tax:</div>
+<div class="opt-total-data">{tag_producttaxamount}</div>
+<div class="opt-total-title">
+<h3>TOTAL:</h3>
+</div>
+<div class="opt-total-data">
+<h3>{tag_invoicetotal}</h3>
+</div>
+</div>
+<!-- End Total -->
+<div class="cart-opt opt-shipping">
+<div class="discount">
+<label for="discountcode">Discount Code</label>
+{tag_discountcode}
+<input type="submit" class="cat_button" value="Update" onclick="return false;" />
+</div>
+<div class="discount">
+<label for="discountcode">Gift Card Code</label>
+{tag_giftvoucher}
+<input type="submit" class="cat_button" value="Update" onclick="return false;" />
+</div>
+</div>
+<!-- End Shipping -->
+<div class="cart-opt opt-discount">
+<p><strong>Where are you shipping to?</strong></p>
+{tag_shippingoptions,true,,,true,true}
+</div>
+<!-- End Discounts -->
+<div class="cart-opt opt-btns">
+{tag_buybutton}
+<p><a id="continue-shopping" href="/for-women">Continue Shopping</a></p>
+</div>
+<!-- End Buttons -->
+</div>
+<!--end options-->
+</div>

@@ -1,0 +1,33 @@
+<div id="utility-nav" >
+    <div class="row-fluid">
+        <div class="span4">
+            <p class="brand-contact">A Nasser Abdulla Lootah Group</p>
+        </div>
+        <div class="span8" id="members-nav">
+            <div class="guest guest-{module_isloggedin}">
+                Welcome Guest <span class="divider">|</span>
+                <a href="#login-modal" data-toggle="modal">Log In</a>
+                <span class="divider">|</span>
+            </div>
+            <div class="member member-{module_isloggedin}">
+                Welcome {module_firstname} <span class="divider">|</span>
+                <a href="/users/history">My Account</a>
+                <span class="divider">|</span>
+                <a href="/LogOutProcess.aspx">Log Out</a>
+                <span class="divider">|</span>
+            </div>
+            {module_shoppingcartsummary,,}
+        </div>
+    </div>
+</div>
+<div id="header" class="row-fluid">
+    <div class="span12" id="main-nav">
+        <h1 id="logo">
+            <a href="/">Lootah premium Foods</a>
+        </h1>
+        <!-- End Utility Nav -->
+
+        <!-- End Members Nav -->
+        <div id="nav">{module_menu,1330317}</div>
+        <!-- End Nav --> </div>
+</div>

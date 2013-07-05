@@ -1,0 +1,54 @@
+<script type="text/javascript">
+window.selectedStatePageID = events;
+$(function() {
+$("div[data-show=\"No\"]").hide();
+$("div[data-show2=\"No\"]").hide();
+})
+</script>
+<p>{module_goback}</p>
+<h1>{tag_name}</h1>
+<div data-show="{tag_booking show detail}">
+<h3>Webinar Details</h3>
+<table style="width: 65%; margin: 0pt;" class="event-details-table">
+    <tbody>
+        <tr>
+            <td valign="top" style="width: 50%;">
+            <p><strong>Date:</strong> {tag_date label}</p>
+            <p><strong>Time:</strong> {tag_time}</p>
+            <p><strong>Location:</strong> {tag_location}</p>
+            </td>
+            <td valign="top" style="width: 50%;">
+            <p><strong>Capacity:</strong> {tag_capacity}</p>
+            <p><strong>Cost:</strong> {tag_cost}</p>
+            <div data-show2="{tag_booking show detail button}">
+            <a href="{tag_booking url}" class="green-btn">{tag_booking label}</a>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div>{tag_description}</div>
+<table>
+    <tbody>
+        <tr>
+            <td>{module_twittertweet, moduleTemplateGroup="", language="en",  url="{tag_itemurl_withhost}", count="horizontal", text="", via="", related="",  countUrl=""}</td>
+            <td>{module_facebooklike, moduleTemplateGroup="", language="en_US",  url="{tag_itemurl_withhost}", layout="", showFaces="false", width="450", verb="like", font="", colorScheme=""}</td>
+            <td>
+            <a href="{tag_itemurl_withhost}#disqus_thread">Comments</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'example'; // required: replace example with your forum shortname
+    var disqus_url = '{tag_itemurl_withhost}';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js'; // required: replace '+ disqus_shortname +' with your shortname
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

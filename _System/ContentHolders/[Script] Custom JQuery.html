@@ -1,0 +1,79 @@
+<script type = "text/javascript" >
+    $(document).ready(function() {
+    //placeholder
+    $("[placeholder]").focus(function() {
+        var input = $(this);
+        if (input.val() == input.attr("placeholder")) {
+            input.val("");
+            input.removeClass("placeholder");
+        }
+    }).blur(function() {
+        var input = $(this);
+        if (input.val() == "" || input.val() == input.attr("placeholder")) {
+            input.addClass("placeholder");
+            input.val(input.attr("placeholder"));
+        }
+    }).blur();
+    //get window height
+    var DocHeight = $(document).height()
+
+    //prepare overlay
+    $('body').prepend('<div id="overlay"></div>');
+    $('#overlay').height(DocHeight);
+    //
+    $('.catalog-image a').each(function() {
+        var linkURL = $(this).attr('href');
+        $(this).parent().prepend('<a href="' + linkURL + '" class="duplicateLink"></a>');
+
+    });
+
+
+    $('#details').click(function() {
+        $('#details-info').show();
+        $('#overlay').show();
+    });
+
+    $('#details-info .close-window').click(function() {
+        $('#details-info').hide();
+        $('#overlay').hide();
+    });
+    //product small
+    $('.productItem .quick-view, .productItemLast .quick-view').each(function() {
+        $(this).click(function() {
+            $('#overlay').show();
+            $(this).parent().parent().parent().parent().find('.quick-view-window').slideToggle('slow');
+
+        });
+    });
+    //
+    $('.quick-view-window .close-window').click(function() {
+        $('.quick-view-window').hide();
+        $('#overlay').hide();
+    });
+    //
+    if ($('.productList').hasClass('productLarge')) {
+        $('#catalogue-teaser').slideToggle('slow');
+        $('#body').addClass('productLargeView')
+    }
+    //
+    $('.open-catalog-view').click(function() {
+        $('#catalogue-teaser').slideToggle('slow').addClass('open');
+        $(this).toggleClass('open');
+    }); //
+    $('.preview-text').each(function() {
+        if ($(this).text().length > 500) {
+            //     
+
+            var text = $(this).text();
+            text = text.substr(0, 500) + '...';
+            $(this).text(text);
+
+
+
+        }
+    });
+
+
+});
+
+</script>

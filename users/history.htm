@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <!-- InstanceBegin template="/Templates/Users.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="body-wrapper default-template">
+            <div class="row-fluid">
+                <div id="main-body" class="about span12">
+                    <!-- InstanceBeginEditable name="ContentArea" -->
+                    <script type="text/javascript">
+                        $(function () {
+                            $(".js-subject a").each(function () {
+                                var txt = this.innerHTML;
+
+                                txt = txt.replace("/", " - ");
+                                this.innerHTML = txt;
+                            });
+                        });
+                    </script>
+                    <h2>Purchase History</h2>
+                    <table width="100%" class="table table-striped" id="order-history">
+                        <thead>
+                            <tr>
+                                <th class="tag_orderid">Order #</th>
+                                <th class="tag_createdate">
+                                    Created On
+                                </th>
+                                <th class="tag_invoicetotal">Amount</th>
+                                <th class="tag_ordername">Details</th>
+                                <th class="tag_status">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {module_order,a,}
+                        </tbody>
+                    </table>
+                    
+                    <!-- InstanceEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+    <!-- InstanceEnd -->
+</html>

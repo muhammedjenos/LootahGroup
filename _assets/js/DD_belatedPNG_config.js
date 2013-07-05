@@ -1,0 +1,1 @@
+DD_belatedPNG.fix('#hotpress-link a');

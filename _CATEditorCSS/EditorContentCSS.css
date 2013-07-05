@@ -1,0 +1,51 @@
+body
+{
+    /* add these 2 lines */
+    color:Black !important;
+    background-color:White !important;
+   /* ******** */
+    padding:3px !important;
+    background-image: none !important;
+    margin: 0px !important;
+    text-align: left !important;
+    scrollbar-face-color: #BACBF4 !important;
+    scrollbar-highlight-color: #FFFFFF !important;
+    scrollbar-shadow-color: #7E9FD2 !important;
+    scrollbar-3dlight-color: #E6EEFC !important;
+    scrollbar-arrow-color: #4D6185 !important;
+    scrollbar-track-color: #F7F7F3 !important;
+    scrollbar-darkshadow-color: #C6D1DC !important;
+    word-wrap: break-word !important;
+}
+
+table
+{
+    BORDER: #CCC 1px dotted;
+}
+table td
+{
+    PADDING: 1px;
+    BORDER: #CCC 1px dotted;
+}
+table th
+{
+    PADDING: 1px;
+    BORDER: #CCC 1px dotted;
+}
+form
+{
+	background-color:#efefef;
+	border:#99999 1px dotted;
+}
+
+.RadEWrongWord
+{
+	background-color: yellow;
+}
+.RadEDomMouseOver
+{
+	background-color:#ffffcc;	
+}
+#idtest{
+color:#333;
+}

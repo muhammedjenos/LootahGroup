@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <!-- InstanceBegin template="/Templates/Users.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="body-wrapper default-template">
+            <div class="row-fluid">
+                <div id="catalogue-teaser" class="aside span3">
+                    <div class="categories">
+                        <div class="subcatalog-list">
+                            <h2>My Account</h2>
+                            <ul>
+                                <li>
+                                    <a href="/users/history">Account History</a>
+                                </li>
+                                <li>
+                                    <a href="/users/wishlist">Wish List</a>
+                                </li>
+                                <li>
+                                    <a href="/users/settings">Account Settings</a>
+                                </li>
+                                <li>
+                                    <a href="/logoutprocess.aspx">Sign Out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="main-body" class="span9">
+                    <!-- InstanceBeginEditable name="ContentArea" -->
+                    <h2>Your Favorites Wishlist</h2>
+                    <div class="favorites-list">{module_favorites,a,0,0}</div>
+                    <!-- InstanceEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+    <!-- InstanceEnd -->
+</html>

@@ -1,0 +1,18 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=282438341856420";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="blog-post">
+<h2 class="post-title">{tag_blogposttitle_nolink} </h2>
+<div class="post-details"> {tag_blogpostauthor} - {tag_blogpostdate} |  <a href="#comments" id="fb-comment-details">Comments (<fb:comments-count href="{tag_itemurl_withhost}">0</fb:comments-count>)</a></div>
+<div class="post-body"> {tag_blogpostbody}
+</div>
+<div id="comments">
+<h4>Comments</h4>
+<div class="fb-comments" data-href="{tag_itemurl_withhost}" data-num-posts="2" data-width="670"></div>
+</div>
+</div>

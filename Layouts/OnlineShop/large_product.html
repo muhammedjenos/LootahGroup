@@ -1,0 +1,80 @@
+<script type="text/javascript">
+(function ($) {
+    $(function () {
+        var $productPopletLinks = $("td.productPopletsItem a");
+        $productPopletLinks.each(function (idx) {
+            /* remove default light box populet behavior from*/
+            var $this = $(this);
+            $this.removeAttr("onclick");
+            $this.removeAttr("rel");
+            this.onclick = null;
+        });
+        $productPopletLinks.click(function (event) {
+            event.preventDefault();
+            var $largeImg = $(".product-image-lrg img");
+            var $largeImgContainer = $largeImg.parent("div");
+            var popImageUrl = $(this).attr("href");
+            var $newImg = $("<img style=\"display:none;\"></img>");
+
+            /* Load fires when the image is done loading over 
+            network or from cache.
+                          
+            After load we fade out, after fade out, we fade in.
+            The fade out happens in the load handler so that there
+            is no pause between fade out and in, while image is loading.*/
+            $newImg.load(function () {
+                $largeImg.fadeOut(function () {
+                    $largeImg.remove();
+                    $newImg.fadeIn();
+                });
+            });
+
+            //causes newImage to load and fire onload.  
+            $newImg.appendTo($largeImgContainer);
+            $newImg.attr("src", popImageUrl);
+        });
+    });
+})(jQuery);
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=282438341856420";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="product-details">
+<div class="open-catalog-view"><span class="arrow"></span>Catalog List View</div>
+<div class="product-aside">
+<div class="product-image-lrg-wrapper">
+<div class="poplet-images"> {tag_poplets,5} </div>
+<div class="product-image-lrg">
+{tag_largeimage}
+</div>
+</div>
+</div>
+<div class="product-main">
+<h3>{tag_name}</h3>
+<div class="price">{tag_saleprice}</div>
+{tag_grouping}
+<div class="attributes">{tag_attributes}</div>
+<div class="product-col-1">
+<div class="qty"> Quantity: <strong>{tag_addtocartinputfield}</strong></div>
+<div class="stock">({tag_instock} in-stock)</div>
+</div>
+<div class="product-col-2">
+{tag_addtocart} <br />
+<div class="wish">{tag_addtofavorites,Add to Wishlist,Remove from Wishlist}</div>
+</div>
+<div class="product-description">
+{tag_description} </div>
+<div class="social">
+<div data-show-faces="true" data-width="450" data-send="false" class="fb-like"></div>
+<a class="twitter-share-button" href="https://twitter.com/share">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+<!-- End Main -->
+</div>
+<!-- End Product Details -->

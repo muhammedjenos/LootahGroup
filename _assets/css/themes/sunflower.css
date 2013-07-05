@@ -1,0 +1,42 @@
+/*colors
+--------------------------------------------------------------------
+blue:#90CAD9;
+yellow:#D4B467;
+brown:#60564D;
+*/
+
+/*blues
+--------------------------------------------------------------------*/
+a:link, a:visited, .open-catalog-view, h1 a:hover, h1 a:active, h2 a:hover, h2 a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active, h5 a:hover, h5 a:active, h6 a:hover, h6 a:active,#nav ul li.selected a:link, #nav ul li.selected a:visited, #nav ul li.selected a:link, #nav ul li.selected a:visited, #nav ul li.selected ul li.selected a:link, #nav ul li.selected ul li.selected a:visited  {
+	color: #90CAD9;
+}
+#twitter-feed .tweetme a, #nav ul li a:hover, #nav ul li a:active, #sub-nav ul li a:hover, #sub-nav ul li a:active {
+	color: #90CAD9!important;
+}
+.shipping-overlay, .preview-addtocart .details a:hover, .productSubmitInput:hover, #header #shopping-cart, .clip-small .clip-small-overlay .action, .hero-button a:hover, .hero-button a:active, .clip-small-overlay .action {
+	background-color: #90CAD9!important;
+}
+/*yellow
+--------------------------------------------------------------------*/
+
+.hero-description, input.cat_button, .cat_button, input[type="submit"], .productSubmitInput {
+	background-color: #D4B467;
+}
+.subcatalog-list ul li a:hover, .subcatalog-list ul li a:active, .subcatalog-list ul li.selected a:link, .preview-description .read-more a:link, .read-more a:visited, .blog-post h2.post-title a, #sub-nav ul li a:link, #sub-nav ul li a:visited, #utility-nav ul li.selected a:link, #utility-nav ul li.selected a:visited, #member-nav ul li.selected a:link, #member-nav ul li.selected a:visited, a:hover, a:active {
+	color: #D4B467;
+}
+/*browns
+--------------------------------------------------------------------*/
+
+
+.hero-button a:link, .hero-button a:visited, .hero-action a {
+	background-color: #60564D;
+}
+.open-catalog-view:hover, .close-window, .preview-addtocart .details a, #form-login input.cat_textbox_small, #nav ul li a:link, #nav ul li a:visited, #nav ul li ul li a:link, #nav ul li ul li a:visited, #nav ul li.selected ul li a:link, #nav ul li.selected ul li a:visited  {
+	color: #60564D;
+}
+/*background
+--------------------------------------------------------------------*/
+#container-wrapper {
+	background: #fff;
+}

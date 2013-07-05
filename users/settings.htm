@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <!-- InstanceBegin template="/Templates/Users.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+
+    <!-- InstanceEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="body-wrapper default-template">
+            <div class="row-fluid">
+                <div id="catalogue-teaser" class="aside span3">
+                    <div class="categories">
+                        <div class="subcatalog-list">
+                            <h2>My Account</h2>
+                            <ul>
+                                <li>
+                                    <a href="/users/history">Account History</a>
+                                </li>
+                                <li>
+                                    <a href="/users/wishlist">Wish List</a>
+                                </li>
+                                <li>
+                                    <a href="/users/settings">Account Settings</a>
+                                </li>
+                                <li>
+                                    <a href="/logoutprocess.aspx">Sign Out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="main-body" class="span9">
+                    <!-- InstanceBeginEditable name="ContentArea" -->
+                    <h1>Account Settings</h1>
+                    <form action="/MemberProcess.aspx" onsubmit="return checkWholeForm2825(this)" enctype="multipart/form-data" method="post" name="catupdatedetailsformform2825">
+                        <div class="form-row">
+                            <h2>Personal Information</h2>
+                            <!-- End Form Detail -->
+                            <div class="form-data">
+                                <ul class="webform">
+                                    <li>
+                                        <label for="FirstName">First Name</label>
+                                        <input type="text" name="FirstName" id="FirstName" value="{module_firstname}" class="cat_textbox" maxlength="255" />
+                                    </li>
+                                    <li>
+                                        <label for="LastName">Last Name</label>
+                                        <input type="text" name="LastName" id="LastName" value="{module_lastname}" class="cat_textbox" maxlength="255" />
+                                    </li>
+                                    <li>
+                                        <label for="EmailAddress">Email Address</label>
+                                        <input type="text" name="EmailAddress" id="EmailAddress" value="{module_emailaddress}" class="cat_textbox" maxlength="255" />
+                                    </li>
+                                    <li>
+                                        <label for="Username">Username</label>
+                                        <input type="text" name="Username" id="Username" value="{module_username}" class="cat_textbox" maxlength="255" />
+                                    </li>
+                                    <li>
+                                        <label for="Password">Password</label>
+                                        <input type="password" name="Password" id="Password" value="{module_password}" class="cat_textbox" maxlength="255" />
+                                    </li>
+                                    <li>
+                                        <label for="PasswordConfirm">Confirm Password</label>
+                                        <input type="password" name="PasswordConfirm" id="PasswordConfirm" value="{module_password}" class="cat_textbox" maxlength="255" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Form Detail --> </div>
+                        <!-- End Form Row -->
+                        <div class="form-row">
+                            <h2>Company Information</h2>
+                            <!-- End Form Detail -->
+                            <div class="form-data">
+                                <ul class="webform">
+                                        <li>
+                                            <label for="Company">Company</label>
+                                            <input type="text" maxlength="255" class="cat_textbox" value="{module_company}" id="Company" name="Company" />
+                                        </li>
+                                        <li>
+                                            <label for="WorkPhone">Work Phone Number</label>
+                                            <input type="text" maxlength="255" class="cat_textbox" value="{module_workphone}" id="WorkPhone" name="WorkPhone" />
+                                        </li>
+                                        <li>
+                                            <label for="WorkAddress">Work Address</label>
+                                            <input type="text" maxlength="500" class="cat_textbox" value="{module_workaddress}" id="WorkAddress" name="WorkAddress" />
+                                        </li>
+                                        <li>
+                                            <label for="WorkZip">Postcode</label>
+                                            <input type="text" maxlength="255" class="cat_textbox" value="{module_workzip}" id="WorkZip" name="WorkZip" />
+                                        </li>
+                                        <li>
+                                            <label for="WorkCountry">Country</label>
+                                            <select class="cat_dropdown" id="WorkCountry" name="WorkCountry">
+                                                <option selected="selected" value="AE">UNITED ARAB EMIRATES</option>
+                                            </select>
+                                        </li>
+                                </ul>
+                            </div>
+                            <!-- End Form Detail --> </div>div>
+                        <!-- End Form Row -->
+                        <input type="submit" class="cat_button" value="Update Account" id="catupdatedetailsformbutton" />
+                        <!-- End Form Row -->
+                        <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script>
+                        <script type="text/javascript" src="/CatalystScripts/Java_DatePicker.js"></script>
+                        <script type="text/javascript">
+//<![CDATA[
+if (document.getElementById('Title') != null) document.getElementById('Title').value = '{module_title}'; if (document.getElementById('HomeCountry') != null) document.getElementById('HomeCountry').value = '{module_homecountry}'; if (document.getElementById('WorkCountry') != null) document.getElementById('WorkCountry').value = '{module_workcountry}'; var submitcount2825 = 0;function checkWholeForm2825(theForm){var why = "";if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name");if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name"); if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if (theForm.Password && theForm.PasswordConfirm) { if (theForm.Password.value.length > 0 || theForm.PasswordConfirm.value.length > 0) { if (theForm.Password.value != theForm.PasswordConfirm.value) why += appendBreak("- Password and its confirmation do not match."); if (theForm.Password.value.length < 6) why += appendBreak("- Password must be 6 characters or longer."); }} if(why != ""){alert(why);return false;}if(submitcount2825 == 0){submitcount2825++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+//]]></script>
+                    </form>
+
+                    <!-- InstanceEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+    <!-- InstanceEnd -->
+</html>

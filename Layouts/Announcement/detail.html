@@ -1,0 +1,18 @@
+<script type="text/javascript">
+$(function() {
+var start = $("#start");
+var to = $("#to");
+var end = $("#end");
+
+if(start.text() == end.text()){
+to.remove();
+end.remove();
+}
+});
+</script>
+<h3>{tag_subject}</h3>
+<p><em><span id="start">{tag_eventfromdate}</span> <span id="to">to</span> <span id="end">{tag_eventtodate}</span></em></p>
+<div>{tag_body}</div>
+<!-- <a class="dis-count" href="{module_referreraddress}#disqus_thread">Comments</a>
+<hr />
+</body></html>-->

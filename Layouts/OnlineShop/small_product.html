@@ -1,0 +1,30 @@
+<div class="prodItemBCK">
+	<div class="product-list">
+		<div class="product-image">
+			<a href="#{tag_productcode}" data-toggle="modal"><img  alt="" src="{tag_largeimage_path}?Action=thumbnail&amp;Width=220&amp;Height= 140&amp;algorithm=fill_proportional" /></a>
+		</div>
+		<h3><a href="#{tag_productcode}" data-toggle="modal">{tag_name_nolink}</a></h3>
+		<!-- <p class="price">{tag_saleprice}</p> -->
+	</div>
+	<div class="modal hide fade quick-view-window" id="{tag_productcode}">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<div class="modal-body">
+			<div class="preview-image">
+				<img alt="" src="{tag_largeimage_path}?Action=thumbnail&amp;Width=366&amp;Height= 366&amp;algorithm=fill_proportional" />
+			</div>
+			<div class="preview-description">
+				<h3>{tag_name_nolink}</h3>
+               
+                <div class="sale-price">{tag_saleprice}</div> 
+                <span class="unit-type">({tag_unittype})</span>
+                <hr>
+				<div class="preview-text">{tag_description}</div>
+				<div class="preview-addtocart">
+					<div class="quantity">{tag_addtocartinputfield}</div>
+					<div class="buynow">{tag_addtocart}</div>
+					<div class="details">{tag_addtofavorites,Add to Wishlist,Remove from Wishlist}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

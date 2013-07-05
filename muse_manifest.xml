@@ -1,0 +1,30 @@
+<manifest alg="2" build="974" opt="true">
+  <folder name="Templates">
+    <file name="main template.html" crc="4287207964"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="4003109849"/>
+    <file name="index.css" crc="3907160583" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="526788486" ref="index"/>
+      <file name="museutils.js" crc="341640877" ref="index"/>
+      <file name="pie.js" crc="4067523484" ref="index"/>
+      <file name="pie.htc" crc="119515598" ref="index"/>
+      <file name="webpro.js" crc="3826857147" ref="index"/>
+      <file name="musewpslideshow.js" crc="4197465286" ref="index"/>
+      <file name="jquery.museoverlay.js" crc="46585990" ref="index"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="smallflower.jpg" crc="3849274890" ref="index"/>
+    <file name="bigflower.jpg" crc="3893065589" ref="index"/>
+    <file name="leaves.jpg" crc="532919387" ref="index"/>
+    <file name="smallflower106x70.jpg" crc="3862126869" ref="index"/>
+    <file name="bigflower106x70.jpg" crc="247559056" ref="index"/>
+    <file name="leaves106x70.jpg" crc="473594305" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4003277307" mt="1347133830470"/>
+</manifest>

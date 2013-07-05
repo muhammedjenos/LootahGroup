@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <link rel="stylesheet" type="text/css" href="/_assets/css/hero.css" />
+    <!-- Other scripts -->
+
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <div id="container-wrapper">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="SlideShowWidget colelem row-fluid" id="slideshowu65">
+            <!-- group -->
+            <div class="slideshow-bg">
+                <div class="popup_anchor">
+                    <div class="SlideShowContentPanel" id="u93">
+                        <!-- stack box -->{module_webapps,13538,a}</div>
+                </div>
+                <div class="popup_anchor">
+                    <div class="SSSlideLinks" id="u101">
+                        <!-- horizontal-rows box -->{module_webapps,13538,a,,,,true,,,}</div>
+                </div>
+            </div>
+
+        </div>
+        <!--end slideshow-->
+        <div class="container">
+            <div id="body" class="row-fluid">
+                <!-- TemplateBeginEditable name="ContentArea" -->
+                {tag_pagecontent}
+                <!-- TemplateEndEditable -->
+                <!-- End Main Body --> </div>
+        </div>
+        <!-- End Body -->
+        <div class="container">
+            <div id="footer-content">
+                <div id="footer-utility" class="row-fluid">
+                    <div class="span4">
+                        <h2>Latest News</h2>
+                        <div id="slider3">
+                            <div class="viewport">
+                                <ul class="overview">
+                                    <li>
+                                        <span> <strong>24-Mar-2013</strong>
+                                        </span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse hendrerit ligula quis velit pharetra egestas. Ut molestie elit non massa.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span> <strong>24-Mar-2013</strong>
+                                        </span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse hendrerit ligula quis velit pharetra egestas. Ut molestie elit non massa.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <strong>24-Mar-2013</strong>
+                                        </span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse hendrerit ligula quis velit pharetra egestas. Ut molestie elit non massa.
+                                        </p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <ul class="pager">
+                                <li>
+                                    <a rel="0" href="#" class="pagenum active">1</a>
+                                </li>
+                                <li>
+                                    <a rel="1" href="#" class="pagenum">2</a>
+                                </li>
+                                <li>
+                                    <a rel="2" href="#" class="pagenum">3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col center">
+                        <!-- Start [Template Footer] Blog Message -->
+                        {module_contentholder,name="[Template Footer] Blog Message"}
+                        <!-- End [Template Footer] Blog Message --> </div>
+                    <div class="footer-col right">
+                        <div id="about-us">
+                            <!-- Start [Template Footer] About Synopsis-->
+                            {module_contentholder,name="[Template Footer] About Synopsis"}
+                            <!-- End [Template Footer] About Synopsis--> </div>
+
+                        <!-- End newsletter --> </div>
+                </div>
+                <!-- End Footer Utility --> </div>
+            <!--End Footer-content-->{module_contentholder,name="[Template] Footer"}</div>
+
+        <div id="copyright-bar">
+            <div class="container">
+                <div class="row-fluid">
+                    <span id="copyright" class="span4">COPYRIGHT LOOTAH GROUP 2013. ALL RIGHTS RESERVED</span>
+                    <span id="footer-nav" class="span8">{module_menu,1330305}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS includes -->
+
+    <script src="/scripts/1.1/museutils.js" type="text/javascript"></script>
+    <script src="/scripts/1.1/webpro.js" type="text/javascript"></script>
+    <script src="/scripts/1.1/musewpslideshow.js" type="text/javascript"></script>
+    <script src="/scripts/1.1/jquery.museoverlay.js" type="text/javascript"></script>
+    <script src="/_assets/js/jquery.tinycarousel.min.js" type="text/javascript"></script>
+    <!-- Other scripts -->
+    <script type="text/javascript">
+         //   Muse.Utils.addSelectorFn('body', Muse.Utils.transformMarkupToFixBrowserProblemsPreInit); /* */
+            Muse.Utils.addSelectorFn('a.nonblock', Muse.Utils.addHyperlinkAnchor); /* a.non*/
+            Muse.Utils.addSelectorFn('#slideshowu65', function (elem) {
+                new WebPro.Widget.ContentSlideShow(elem, {
+                    autoPlay: true,
+                    displayInterval: 6000,
+                    slideLinkStopsSlideShow: false,
+                    transitionStyle: 'fading',
+                    lightboxEnabled_runtime: false,
+                    shuffle: false
+                });
+            }); /* #slidesho*/
+            Muse.Utils.addSelectorFn('body', Muse.Utils.showWidgetsWhenReady); /**/
+           //Muse.Utils.addSelectorFn('body', Muse.Utils.transformMarkupToFixBrowserProblems); /* */
+        
+           
+            $(function(){
+            $('#slider3').tinycarousel({ 
+                pager: true, 
+                interval: true,
+                intervaltime: 5000
+            });
+            
+           });
+        </script>
+</body>
+</html>

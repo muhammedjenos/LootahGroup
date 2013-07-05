@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+
+    
+    <!--line-header-->
+    <div id="container-wrapper">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="container">
+            <div class="row-fluid">
+
+                <div id="main-body" class="default span12">
+                    <!-- TemplateBeginEditable name="ContentArea" -->
+                    {tag_pagecontent}
+                    <!-- TemplateEndEditable --> 
+                </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">
+            <div class="container">
+                <div class="row-fluid">
+                    <span id="copyright" class="span4">COPYRIGHT LOOTAH GROUP 2013. ALL RIGHTS RESERVED</span>
+                    <span id="footer-nav" class="span8">{module_menu,1330305}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

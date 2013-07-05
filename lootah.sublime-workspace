@@ -1,0 +1,1037 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"week",
+				"week-schedule"
+			],
+			[
+				"clas",
+				"class-schedule-data"
+			],
+			[
+				"class",
+				"class	@class"
+			],
+			[
+				"node",
+				"nodeValue"
+			],
+			[
+				"col",
+				"colspan	@colspan"
+			],
+			[
+				"div",
+				"DIV"
+			],
+			[
+				"display",
+				"display:   (property)"
+			],
+			[
+				"style",
+				"style	@style"
+			],
+			[
+				"i",
+				"id=  (attribute)"
+			],
+			[
+				"id",
+				"id=  (attribute)"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"h1",
+				"h1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"selected_items":
+		[
+			[
+				"open gi",
+				"Gist: Open Gist"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"liquid",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"remove t",
+				"Emmet: Remove Tag"
+			],
+			[
+				"open g",
+				"Gist: Open Gist"
+			],
+			[
+				"new fil",
+				"File: New File Relative to Current View"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"bootstrap info",
+				"Snippet: Bootstrap information alert"
+			],
+			[
+				"alert",
+				"Snippet: Bootstrap information alert"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"new sni",
+				"Snippet: jQuery Mobile: Link button with a positioned icon"
+			],
+			[
+				"table",
+				"Snippet: table - Placeholder"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"snippet",
+				"Snippet: link - prefetch"
+			],
+			[
+				"snipp",
+				"Snippet: <area>"
+			],
+			[
+				"copy",
+				"File: Copy Path From Project"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"cop",
+				"File: Copy Path From Project"
+			],
+			[
+				"gis",
+				"Gist: Open Gist"
+			],
+			[
+				"foramt",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"css",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"fetc",
+				"Fetch: Manage remote files"
+			],
+			[
+				"SCSS",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"TIDY",
+				"Tidy CSS"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"forma",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"remove tag",
+				"Tag: Remove Picked Tags in Selection"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"error",
+				"Snippet: Bootstrap error alert"
+			],
+			[
+				"bootstrap aler",
+				"Snippet: Bootstrap success alert"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"boot",
+				"Snippet: Bootstrap primary button"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"match",
+				"Zen Coding: Select matching tag name"
+			],
+			[
+				"comme",
+				"Zen Coding: Select matching tag name"
+			],
+			[
+				"fetch",
+				"Fetch"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"File: Reveal"
+			],
+			[
+				"plac",
+				"Snippet: form - Placeholder"
+			],
+			[
+				"ht",
+				"Tidy HTML"
+			],
+			[
+				"bootstrap",
+				"Snippet: Bootstrap primary button"
+			],
+			[
+				"htm",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/muhammedjenos/Dropbox/Projects/Lootah Group/lootah new site/_assets/css/bootstrap.css",
+		"/Users/muhammedjenos/Dropbox/Projects/Lootah Group/lootah new site/Templates/Home.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Canvas-Creative/CI Sitefiles/ci.sublime-project",
+		"/Users/muhammedjenos/Dropbox/Projects/Lootah Group/lootah new site/sftp-config.json",
+		"/Users/muhammedjenos/Dropbox/Projects/Lootah Group/lootah new site/Templates/sftp-config.json",
+		"/Users/muhammedjenos/Dropbox/Projects/Lootah Group/lootah new site/_assets/sftp-config.json",
+		"/Users/muhammedjenos/Dropbox/Projects/Spider Motors/_assets/css/images/cards.png",
+		"/Users/muhammedjenos/Dropbox/Projects/Spider Motors/_System/ContentHolders/[Template] Address.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Spider Motors/contact.htm",
+		"/Users/muhammedjenos/Dropbox/Projects/Spider Motors/Layouts/OnlineShop/order_registration-US.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/js/jflickrfeed-setup.js",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/sftp-config.json",
+		"/Users/muhammedjenos/Dropbox/Projects/Ink Advertising/ink/index.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/index.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/countdown.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/img/developer-logo-ci.png",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/scss/_shortcodes.scss",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/ModuleTemplates/Menu/Default/group.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/ModuleTemplates/Menu/Default/container.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/cute-slider.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/Templates/default-template.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/css/base.css",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/services.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/scss/_layout.scss",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/css/jquery.heroCarousel.css",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/about.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/img/logo.png",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/_System/ContentHolders/navigation.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/Templates/default-template.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/scss/base.scss",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/css/isotope.css",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/css/grid.css",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/css/layout.css",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/scss/_normalize.scss",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/404.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/blog-detail.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/blog.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/columns.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/contact.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/icons.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/index-cute.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/portfolio.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/project.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/responsive.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/retina.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/shortcodes.html",
+		"/Users/muhammedjenos/Dropbox/Projects/MJ/_System/sftp-config.json",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/js/plugins (IT-MDJ-D02's conflicted copy 2012-10-01).js",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/google13b87c8dbbca7869.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/inner.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/media.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/schedule.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/teachers.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/blog.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/default.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/packages.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/schedule.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Yogaroom Events/detail.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/search-results.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/site-search.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/contact.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/class-booking-form.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/css/layout.css",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/index.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Class Descriptions/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/in-the-media.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/studio-etiquette.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/teachers.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/class-descriptions.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/beginners-info.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/about-ashtanga-yoga.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/tips-tricks.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/social-widget.gif",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/social-widget_.gif",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/start-a-workshop.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/footer-highlight-links.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/email-template.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/r-faq.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Media/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/ModuleTemplates/Custom/random-faq.tpl",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Page Images/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/OutboundEmails/WorkflowNotification.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/events.dwt",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/email-logo.gif",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/email.css",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/email-template.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/email.css",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/header-styles-scripts.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/spriteme.png",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/spriteme1.png",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Templates/email-template.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/blog-writing.jpg",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/media.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/media/city-times-dec-8.jpg",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/r-event.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/newsletter-signup-form.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/Blog/post.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Teachers/detail.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/about.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/js/plugins.js",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/workshops.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/css/bootstrap-min.css",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/js/scripts.js",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/schedule2.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/ModuleTemplates/Custom/latest-blogpost.tpl",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/Faq/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/2.jpg",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/1.jpg",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/js/bootstrap-datepicker.js",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/scripts.bk.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/events/workshops.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Teachers/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Class Schedule/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/signature.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/img/email-sig-logo.gif",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/SiteSearch/site_search.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/r-blog.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/ModuleTemplates/Custom/random-event.tpl",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Events/list.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/ModuleTemplates/Custom/random-event",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/home.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/ModuleTemplates/Custom/class-schedule-teacher.tpl",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/top-social-bar.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/footer.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/Layouts/WebApps/Events/detail.html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/index-alternative",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/_System/ContentHolders/class-booking-form (IT-MDJ-D02's conflicted copy 2012-10-02).html",
+		"/Users/muhammedjenos/Dropbox/Projects/Yoga Studio/yogaroom-site-files/sftp-config.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"OPTIN",
+			"<merchant id><session ID>",
+			"<org ID>",
+			"#2bb5cf",
+			"#656a71",
+			"#414141",
+			"../img/",
+			"'Helvetica Neue', Helvetica, Arial, sans-serif",
+			"Intro",
+			"intro",
+			"Intro block",
+			".intro",
+			".intro p",
+			"'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+			"$main-color",
+			"#2bb5cf",
+			"<title>Rudermann Responsive HTML Template</title>",
+			"nofollow",
+			">\n",
+			"facebook",
+			".btn",
+			"'Helvetica Neue', ",
+			"proxi",
+			"h4",
+			"(msg.FormProcessV2Response.success)",
+			".btn",
+			"$(\".tweet\").tweet({",
+			"dwt",
+			"proxima",
+			";\n",
+			"body",
+			"288",
+			"ffd8",
+			"datepicker",
+			"</p>",
+			"<p>",
+			"p",
+			"     ",
+			"head.js",
+			"head.ready",
+			"success_box",
+			"row-fluid",
+			"h4",
+			"h2",
+			"-",
+			" | ",
+			"-",
+			" | ",
+			"|",
+			"body",
+			" <li class=\"schedule-header\">",
+			"hide",
+			"section",
+			"button",
+			"h4",
+			">\n",
+			"src",
+			"span class=\"item span10\">",
+			"</div>\n            <div class=\"row-fluid\">",
+			"</span>\n                <input",
+			"maps",
+			".item",
+			"/>",
+			"cat_textbox span6",
+			"\"span6 item\"",
+			"cat_textbox",
+			"<br />",
+			"<div>",
+			"td",
+			"</tr>",
+			"<tr>",
+			"<td>",
+			"</p>",
+			"<p>",
+			"p",
+			"P",
+			"p",
+			"happy",
+			"class-\"h\"",
+			"<span class=\"first time\">Time</span>",
+			"textbox",
+			".modal",
+			".time",
+			"section",
+			"div",
+			"week-schedule unstyled",
+			" teachers-schedule",
+			"week-schedule unstyled",
+			"<span class=\"levels",
+			"<span class=\"teacher last\">Teacher</span>",
+			".even",
+			".odd",
+			"nth-child",
+			"nth",
+			"}",
+			"div",
+			"rhino",
+			"</em>",
+			"<em>",
+			"popover",
+			"s</h3>",
+			"s<",
+			"form>",
+			"form",
+			"twitter",
+			"li",
+			"th",
+			"hr",
+			",",
+			"body ",
+			"body",
+			"body {",
+			"body{",
+			"body",
+			"font-size:14",
+			"zoom:1",
+			"}\n",
+			"\\9",
+			"primary",
+			"border-collapse",
+			"border-collapse:collapse;",
+			"border-collapse: collapse;",
+			"=",
+			"zoom",
+			"=zoom",
+			"=display:inline;",
+			"=float:left;",
+			"="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#99BD00",
+			"$lightgray",
+			"$darkgray",
+			"/img/",
+			"$main-font",
+			"$green",
+			"$main-color",
+			"<title>Canvas Interactive - Online Businesses, Not Websites</title>",
+			"",
+			"\\t",
+			"  /  ",
+			"-",
+			"  /  ",
+			"\\n",
+			"-",
+			"\\t",
+			"\\r",
+			"\\n",
+			";",
+			"*zoom:1",
+			";",
+			"*zoom",
+			"zoom",
+			"display:inline;",
+			"float:left;",
+			"float:right;",
+			"zoom:1",
+			"/img",
+			"/img/",
+			"Yoga Room",
+			"span12",
+			"/*",
+			" ",
+			"padding:0; ",
+			" margin:0; margin-bottom:12px; ",
+			" ",
+			"<table background=\"img/al-manzil-footer.jpg\" width=\"100%\" height=\"278\" border=\"0\" cellspacing=\"0\" ",
+			"event-invitation-form",
+			"#event-invitation-form",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 102.0
+	},
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.sftp":
+	{
+		"height": 220.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"boot",
+				"_assets/css/bootstrap.css"
+			],
+			[
+				"contact",
+				"contact.htm"
+			],
+			[
+				"base",
+				"css/base.css"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"abou",
+				"about.html"
+			],
+			[
+				"about",
+				"about.html"
+			],
+			[
+				"serv",
+				"services.html"
+			],
+			[
+				"layout.scss",
+				"scss/_layout.scss"
+			],
+			[
+				"layout",
+				"css/layout.css"
+			],
+			[
+				"studio",
+				"studio-etiquette.html"
+			],
+			[
+				"sche",
+				"schedule.html"
+			],
+			[
+				"schedu",
+				"schedule.html"
+			],
+			[
+				"package",
+				"packages.html"
+			],
+			[
+				"search",
+				"search-results.html"
+			],
+			[
+				"packages",
+				"packages.html"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
+				"intheme",
+				"in-the-media.html"
+			],
+			[
+				"packa",
+				"packages.html"
+			],
+			[
+				"layoutclass",
+				"Layouts/WebApps/Class Descriptions/list.html"
+			],
+			[
+				"class",
+				"class-descriptions.html"
+			],
+			[
+				"teachers",
+				"teachers.html"
+			],
+			[
+				"beginn",
+				"beginners-info.html"
+			],
+			[
+				"pak",
+				"packages.html"
+			],
+			[
+				"packag",
+				"packages.html"
+			],
+			[
+				"start",
+				"start-a-workshop.html"
+			],
+			[
+				"begin",
+				"beginners-info.html"
+			],
+			[
+				"randomfaq",
+				"ModuleTemplates/Custom/random-faq.tpl"
+			],
+			[
+				"r-faq",
+				"_System/ContentHolders/r-faq.html"
+			],
+			[
+				"medialist",
+				"Layouts/WebApps/Media/list.html"
+			],
+			[
+				"site",
+				"_System/ContentHolders/site-search.html"
+			],
+			[
+				"eventsdeta",
+				"Layouts/WebApps/Yogaroom Events/detail.html"
+			],
+			[
+				"random",
+				"ModuleTemplates/Custom/random-faq.tpl"
+			],
+			[
+				"r-fa",
+				"_System/ContentHolders/r-faq.html"
+			],
+			[
+				"r-even",
+				"_System/ContentHolders/r-event.html"
+			],
+			[
+				"eventdeta",
+				"Layouts/WebApps/Yogaroom Events/detail.html"
+			],
+			[
+				"blogpost",
+				"Layouts/Blog/post.html"
+			],
+			[
+				"plugin",
+				"js/plugins.js"
+			],
+			[
+				"workshop",
+				"workshops.html"
+			],
+			[
+				"bootstrap",
+				"css/bootstrap-min.css"
+			],
+			[
+				"layoutsteacher",
+				"Layouts/WebApps/Teachers/detail.html"
+			],
+			[
+				"sched",
+				"schedule.html"
+			],
+			[
+				"latest",
+				"ModuleTemplates/Custom/latest-blogpost.tpl"
+			],
+			[
+				"layou",
+				"css/layout.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"teac",
+				"teachers.html"
+			],
+			[
+				"worksho",
+				"events/workshops.html"
+			],
+			[
+				"eventlist",
+				"Layouts/WebApps/Events/list.html"
+			],
+			[
+				"con",
+				"contact.html"
+			],
+			[
+				"plugins",
+				"js/plugins.js"
+			],
+			[
+				"bootstrapmin",
+				"css/bootstrap-min.css"
+			],
+			[
+				"studi",
+				"studio-etiquette.html"
+			],
+			[
+				"detail",
+				"Layouts/WebApps/Events/detail.html"
+			],
+			[
+				"events",
+				"Layouts/WebApps/Events/list.html"
+			],
+			[
+				"laout",
+				"css/layout.css"
+			],
+			[
+				"list",
+				"Layouts/WebApps/Class Schedule/list.html"
+			],
+			[
+				"",
+				"class-schedule.html"
+			],
+			[
+				"star",
+				"start-a-workshop.html"
+			],
+			[
+				"plu",
+				"js/plugins.js"
+			],
+			[
+				"bootstra",
+				"js/bootstrap.min.js"
+			],
+			[
+				"bootst",
+				"css/bootstrap.css"
+			],
+			[
+				"boots",
+				"js/bootstrap.js"
+			],
+			[
+				"p",
+				"js/plugins.js"
+			],
+			[
+				"pl",
+				"js/plugins.js"
+			],
+			[
+				"plug",
+				"js/plugins.js"
+			],
+			[
+				"work",
+				"workshops.html"
+			],
+			[
+				"go",
+				"js/gomap.js"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"deta",
+				"Layouts/WebApps/Events/detail.html"
+			],
+			[
+				"pugin",
+				"js/plugins.js"
+			],
+			[
+				"evn",
+				"Templates/events.dwt"
+			],
+			[
+				"event",
+				"Layouts/WebApps/Events/list_backup.html"
+			],
+			[
+				"grid",
+				"css/grids.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/muhammedjenos/Documents/sublime-projects/nd.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 415.0,
+	"status_bar_visible": true
+}

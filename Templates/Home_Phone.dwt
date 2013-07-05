@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<!-- TemplateBeginEditable name="doctitle" --><title>{module_pagename}</title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->{module_contentholder,23463}
+<link rel="stylesheet" type="text/css" href="/_assets/css/hero.css" />
+<!-- Other scripts --> 
+<script type="text/javascript">
+	window.ISLOGGEDIN = {module_isloggedin};
+	</script>
+</head>
+<body>
+
+<div id="container-wrapper">
+  <div id="container">
+    <div id="header">
+      <h1 id="logo"><a href="/">Your Company</a></h1>
+      <div id="shopping-cart">{module_shoppingcartsummary,,}</div>
+     
+     
+   
+     <div class="SlideShowWidget clearfix colelem" id="slideshowu65"><!-- group -->
+        <div class="slideshow-bg">
+        <div class="popup_anchor">
+        <div class="SlideShowContentPanel clearfix" id="u93"><!-- stack box -->
+        {module_webapps,13538,a} </div>
+        </div>
+        <div class="popup_anchor">
+        <div class="SSSlideLinks clearfix" id="u101"><!-- horizontal-rows box -->
+        {module_webapps,13538,a,,,,true,,,} </div>
+        </div>
+        </div>
+        <div class="popup_anchor">
+        <div class="SSPreviousButton clearfix" id="u90-4"><!-- content -->
+        <p>&lt;</p>
+        </div>
+        </div>
+        <div class="popup_anchor">
+        <div class="SSNextButton clearfix" id="u92-4"><!-- content -->
+        <p>&gt;</p>
+        </div>
+        </div>
+        </div>
+        <!--end slideshow-->   <div id="nav"> {module_menu,1330303} </div>
+      <!-- End Nav --> </div>
+    <!-- End Header -->
+     
+    <div id="body"> <!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable --> 
+      <!-- End Main Body --> 
+    </div>
+    <!-- End Body --> 
+  </div>
+  <!--End Container--></div>
+<!--End Container-wrapper-->
+<div id="footer">
+  <div id="footer-content">
+    <div id="footer-nav"> {module_menu,1330305}
+      <p id="hotpress-link"><a target="_blank" href="http://www.hotpressweb.com">Design By HotPress Web</a></p>
+    </div>
+    <!-- End Footer Nav --> </div>
+  <!--End Footer-content--> 
+</div>
+<!--End Footer--> 
+{module_contentholder,name="[Template] Footer"}<!-- JS includes -->  <script type="text/javascript">
+    if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn1.businesscatalyst.com/scripts/1.1/jquery-1.7.min.js" type="text/javascript">\x3C/script>');
+</script>
+        <script type="text/javascript">
+    window.jQuery || document.write('\x3Cscript src="/scripts/1.1/jquery-1.7.min.js" type="text/javascript">\x3C/script>');
+</script>
+        <script src="/scripts/1.1/museutils.js" type="text/javascript"></script>
+        <script src="/scripts/1.1/webpro.js" type="text/javascript"></script>
+        <script src="/scripts/1.1/musewpslideshow.js" type="text/javascript"></script>
+        <script src="/scripts/1.1/jquery.museoverlay.js" type="text/javascript"></script>
+        <!-- Other scripts -->
+        <script type="text/javascript">
+    Muse.Utils.addSelectorFn('body', Muse.Utils.transformMarkupToFixBrowserProblemsPreInit); /* */
+    Muse.Utils.addSelectorFn('a.nonblock', Muse.Utils.addHyperlinkAnchor); /* a.nonb*/
+    Muse.Utils.addSelectorFn('#slideshowu65', function (elem) {
+        new WebPro.Widget.ContentSlideShow(elem, {
+            autoPlay: true,
+            displayInterval: 6000,
+            slideLinkStopsSlideShow: false,
+            transitionStyle: 'fading',
+            lightboxEnabled_runtime: false,
+            shuffle: false
+        });
+    }); /* #slidesho*/
+    Muse.Utils.addSelectorFn('body', Muse.Utils.showWidgetsWhenReady); /* */
+    Muse.Utils.addSelectorFn('body', Muse.Utils.transformMarkupToFixBrowserProblems); /* */
+</script>
+
+</body>
+</html>

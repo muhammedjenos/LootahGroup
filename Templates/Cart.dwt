@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<!-- TemplateBeginEditable name="doctitle" --><title>{module_pagename}</title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+{module_contentholder,23471}
+</head>
+<body>
+<!-- Other scripts --> 
+<script type="text/javascript">
+	window.ISLOGGEDIN = {module_isloggedin};
+	</script>
+
+<!--line-header-->
+<div id="container-wrapper">
+  <div id="container">
+    <div id="header">
+      <h1 id="logo"><a href="/">Your Company</a></h1>
+      <div id="shopping-cart">{module_shoppingcartsummary,,}</div>
+      <div id="utility-nav"> {module_menu,1330321} </div>
+      <!-- End Utility Nav -->
+      <div id="member-nav"> {module_menu,1330322} </div>
+      <!-- End Members Nav -->
+      <div id="nav"> {module_menu,1330317} </div>
+      <!-- End Nav --> 
+    </div>
+    <!-- End Header -->
+    
+    <div id="body" class="product clear"> <!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable --> 
+      <!-- End Main Body --> 
+    </div>
+    <!-- End Body --> 
+  </div>
+  <!--End Container--></div>
+<!--End Container-wrapper-->
+<div id="footer">
+  <div id="footer-content">
+    <div id="footer-nav"> {module_menu,1330305}
+      <p id="hotpress-link"><a target="_blank" href="http://www.hotpressweb.com">Design By HotPress Web</a></p>
+    </div>
+    <!-- End Footer Nav --> </div>
+  <!--End Footer-content--> 
+</div>
+<!--End Footer--> 
+{module_contentholder,name="[Template] Footer"}
+</body>
+</html>

@@ -1,0 +1,55 @@
+<div class="row-fluid">
+	<div id="catalogue-teaser" class="aside span3">
+		<div class="categories">
+			<h4 class="catalogue-name"></h4>
+			<div class="subcatalog-list"></div>
+		</div>
+	</div>
+	<div class="category-picture about span9">
+		<img alt="" src="/_photos/about-lootah-group.jpg?Action=thumbnail&Width=700&Height=288&algorithm=fill_proportional" />
+	</div>
+</div>
+<div id="main-body" class="row-fluid">
+	<div class="shop-main clear span12">
+		<div class="row-fluid breadcrumbs">
+			<a href="/">Home</a> / {tag_cataloguebreadcrumbs}
+		</div>
+		<div class="row-fluid">
+			{tag_cataloguelist,4,,100,,,true} {tag_productlist,4,,100,,,true}
+		</div>
+		<div class="row-fluid">
+			<div class="span12 product-pagination">{tag_previouspage} {tag_nextpage}</div>
+		</div>
+	</div>
+</div>
+<div class="catalogue-list hide">
+	{module_cataloguelistdump,{tag_catalogueid},,,Alphabetical}
+</div>
+<script>
+        $(document).ready(function() {
+            $('.productSubmitInput').attr("data-dismiss", "modal");
+            $(".breadcrumbs").html($(".breadcrumbs").html().replace(":", "/"));
+
+            //fix the sub-navigation
+            //first get the parent catalogue from the bread crumbs  
+            var parentCatalogueName = $(".breadcrumbs a:nth-last-child(2)").text();
+            var parentCatalogueLink = $(".breadcrumbs a:nth-last-child(2)").attr('href');
+            $(".catalogue-name").text(parentCatalogueName);
+            console.log($(".breadcrumbs a:nth-last-child(2)").attr('href'));
+
+            //ajax in the content for the sub catalogue
+            $.get(parentCatalogueLink, function(data) {
+			  var results = $(data).find('div.catalogue-list').html();
+			  $('div.subcatalog-list').html(results);
+
+			//highlight the current navigation
+			$(".subcatalog-list a").each(function()
+			{
+                if ($(this).attr("href") == window.location.pathname){
+                     $(this).parent().addClass("selected");
+                }
+       		});
+			});
+        });
+       
+    </script>

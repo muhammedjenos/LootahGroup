@@ -1,0 +1,20 @@
+<script>
+getTwitters('{tag_itemid}', { 
+  id: '{tag_twitter id}', 
+  count: 1, 
+  enableLinks: true, 
+  ignoreReplies: true, 
+  clearContents: true,
+  template: '<h5>@{tag_twitter id}</h5><p>%text%"</p><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
+});
+</script>
+<div class="staff-list">
+<img alt="" src="{tag_photo_value}" />
+<h3>{tag_name_nolink}</h3>
+<p>{tag_title}</p>
+<div class="description">{tag_description}</div>
+<div class="tweetme" id="{tag_itemid}">
+<p><img alt="" src="/_assets/css/images/indicator.gif" /> Please wait while my tweets load </p>
+</div>
+</div>
+<hr />

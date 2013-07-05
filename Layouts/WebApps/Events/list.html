@@ -1,0 +1,17 @@
+<h3>{tag_name}</h3>
+<p><em>Date:</em> <span class="event-date">{tag_date}</span><br />
+<em>Time:</em> {tag_time}</p>
+<p><a href="{tag_booking url}">{tag_booking label}</a><br />
+{tag_synopsis}{tag_file upload}</p>
+<table>
+    <tbody>
+        <tr>
+            <td>{module_twittertweet, moduleTemplateGroup="", language="en",  url="{tag_itemurl_withhost}", count="horizontal", text="", via="", related="",  countUrl=""}</td>
+            <td>{module_facebooklike, moduleTemplateGroup="", language="en_US",  url="{tag_itemurl_withhost}", layout="", showFaces="false", width="450", verb="like", font="", colorScheme=""}</td>
+            <td>
+            <a href="{tag_itemurl_withhost}#disqus_thread">Comments</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<hr />

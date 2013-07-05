@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="body-wrapper default-template">
+            <div class="row-fluid">
+                <div id="main-body" class="about span12">
+                    <!-- InstanceBeginEditable name="ContentArea" -->
+                    <div class="row-fluid">
+                        <div class="span4">
+                            <div id="form-login">
+                                <h2>Create Your Account</h2>
+                                <p>
+                                    Create an account to take advantage of the features and benefits that make using our website faster and easier:
+                                </p>
+                                <ul>
+                                    <li>Save items to your wish list</li>
+                                    <li>Order tracking and order history</li>
+                                    <li>Save your account information</li>
+                                    <li>Receive email updates and offers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="span8">
+                            <h3>Sign In Information</h3>
+                            <p>
+                                Your email address will also your user name, so it will be easy to remember. <br>
+                                 All fields marked with <span class="req">*</span> are required.
+                            </p>
+                            <div class="member-signup-form">
+                                <form name="catwebformform40993" method="post" onsubmit="return checkWholeForm40993(this)" enctype="multipart/form-data" action="https://lootah.worldsecuresystems.com/FormProcessv2.aspx?WebFormID=50421&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}&CC={module_urlcountrycode}&Referrer={module_siteurl,true,true}">
+                                    <ul class="webform">
+
+                                        <li>
+                                            <label for="FirstName">
+                                                First Name
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="text" name="FirstName" id="FirstName" class="cat_textbox" maxlength="255" />
+                                        </li>
+                                        <li>
+                                            <label for="LastName">
+                                                Last Name
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="text" name="LastName" id="LastName" class="cat_textbox" maxlength="255" />
+                                        </li>
+                                        <li>
+                                            <label for="Company">
+                                                Company
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="text" name="Company" id="Company" class="cat_textbox" maxlength="255" />
+                                        </li>
+                                        <li>
+                                            <label for="WorkPhone">
+                                                Work Phone Number
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="text" name="WorkPhone" id="WorkPhone" class="cat_textbox" maxlength="255" />
+                                        </li>
+                                        <li>
+                                            <label for="CellPhone">Cell Phone Number</label>
+                                            <input type="text" name="CellPhone" id="CellPhone" class="cat_textbox" maxlength="255" />
+                                        </li>
+                                        <li>
+                                            <label for="EmailAddress">
+                                                Email Address
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="text" name="EmailAddress" id="EmailAddress" class="cat_textbox" maxlength="255" />
+                                        </li>
+                                        
+                                        <li>
+                                            <label for="Password">
+                                                Password
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="password" name="Password" id="Password" class="cat_textbox" maxlength="255" autocomplete="off" />
+                                        </li>
+                                        <li>
+                                            <label for="PasswordConfirm">
+                                                Confirm Password
+                                                <span class="req">*</span>
+                                            </label>
+                                            <input type="password" name="PasswordConfirm" id="PasswordConfirm" class="cat_textbox" maxlength="255" autocomplete="off" />
+                                        </li>
+                                    </ul>
+                                    <div class="hide">
+                                        <input type="text" name="Username" id="Username" class="cat_textbox" maxlength="255" />
+                                        <input type="checkbox" checked="checked" name="CampaignList_42492" />
+                                    </div>
+                                    <script type="text/javascript">
+                                                                            //copy email address to username
+                                                                            function setUsername(){
+                                                                                var email = $('#EmailAddress').val();
+                                                                                $('#Username').val(email);  
+                                                                            }
+                                                                        </script>
+
+                                    <input class="cat_button" type="submit" value="Submit" id="catwebformbutton" />
+                                    <script type="text/javascript" src="http://lootah.mjmediastudio.com/CatalystScripts/ValidationFunctions.js"></script>
+                                    <script type="text/javascript">
+                                //<![CDATA[
+                                var submitcount40993 = 0;function checkWholeForm40993(theForm){
+                                    setUsername();
+var why = "";if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name"); if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name"); if (theForm.Company) why += isEmpty(theForm.Company.value, "Company Name"); if (theForm.WorkPhone) why += isEmpty(theForm.WorkPhone.value, "Work Phone Number"); if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if (theForm.Username) why += isEmpty(theForm.Username.value, "Username"); if (theForm.Password && theForm.PasswordConfirm) { why += isEmpty(theForm.Password.value, "Password"); why += isEmpty(theForm.PasswordConfirm.value, "Confirm Password"); if (theForm.Password.value != theForm.PasswordConfirm.value) why += appendBreak("- Password and its confirmation do not match."); if (theForm.Password.value.length < 6) why += appendBreak("- Password must be 6 characters or longer."); } if(why != ""){alert(why);return false;}if(submitcount40993 == 0){submitcount40993++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+                                //]]></script>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- InstanceEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+    <!-- InstanceEnd -->
+</html>

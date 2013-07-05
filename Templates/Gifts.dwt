@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<!-- TemplateBeginEditable name="doctitle" --><title>{module_pagename}</title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+{module_contentholder,23471}<!-- Other scripts --> 
+<script type="text/javascript">
+	window.ISLOGGEDIN = {module_isloggedin};
+	</script>
+</head>
+<body>
+
+
+<!--line-header-->
+<div id="container-wrapper">
+  <div id="container">
+    <div id="header">
+      <h1 id="logo"><a href="/">Your Company</a></h1>
+      <div id="shopping-cart">{module_shoppingcartsummary,,}</div>
+      <div id="utility-nav"> {module_menu,1330321} </div>
+      <!-- End Utility Nav -->
+      <div id="member-nav"> {module_menu,1330322} </div>
+      <!-- End Members Nav -->
+      <div id="nav"> {module_menu,1330317} </div>
+      <!-- End Nav --> 
+    </div>
+    <!-- End Header -->
+    <div  id="catalogue-teaser">
+      <div class="categories">
+        <h4>By Category</h4>
+        <div class="subcatalog-list">{module_cataloguelistdump,174408,1,,Alphabetical}</div>
+      </div>
+      <div class="category-picture">
+        <div class="shipping-overlay"><strong>FREE SHIPPING</strong> On ALL ORDERS OVER $100
+          <div class="link"><a href="#" id="details">Click here for details ></a></div>
+        </div>
+        <img alt="" src="/_photos/gifts.jpg" /></div>
+    </div>
+    <!--end catalogue-teaser-->
+    <div id="details-info" style="display:none;" >
+      <div class="close-window">X</div>
+      <strong>Free Ground Shipping!</strong><br/>
+      All orders for $100 or more will receive free ground shipping to the lower 48 states (excluding Alaska and Hawaii). Free shipping terms subject to change, and apply to all products. </div>
+    <div id="body" class="clear"> <!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable --> 
+      <!-- End Main Body --> 
+    </div>
+    <!-- End Body --> 
+  </div>
+  <!--End Container--></div>
+<!--End Container-wrapper-->
+<div id="footer">
+  <div id="footer-content">
+    <div id="footer-utility">
+      <div class="footer-col left">
+        <div id="search"> {module_contentholder,23472} </div>
+        <!-- End Search --><!-- Start [Template Script] Twitter Feed -->{module_contentholder, 23469}<!-- End [Template Script] Twitter Feed -->
+        <div id="twitter-feed">
+          <div id="tweet-feed" class="tweetme">
+            <p><img alt="" src="/_assets/css/images/indicator.gif" /> Please wait while my tweets load </p>
+          </div>
+          <div class="bird"><a href="http://www.twitter.com" target="_blank"></a></div>
+        </div>
+      </div>
+      <div class="footer-col center"> 
+        <!-- Start [Template Footer] Blog Message --> {module_contentholder,23467}<!-- End [Template Footer] Blog Message --></div>
+      <div class="footer-col right">
+        <div id="newsletter"> 
+          <!--Start [Template Footer] Newsletter Subscription Form-->{module_contentholder,23468}<!--End [Template Footer] Newsletter Subscription Form--> 
+        </div>
+        <!-- End newsletter -->
+        <div id="about-us"><!-- Start [Template Footer] About Synopsis-->{module_contentholder,23466}<!-- End [Template Footer] About Synopsis--></div>
+      </div>
+    </div>
+    <!-- End Footer Utility -->
+    <div id="footer-nav"> {module_menu,1330305}
+      <p id="hotpress-link"><a href="http://www.hotpressweb.com" target="_blank">Design By HotPress Web</a></p>
+    </div>
+    <!-- End Footer Nav --> </div>
+  <!--End Footer-content--> 
+</div>
+<!--End Footer--> 
+{module_contentholder,name="[Template] Footer"} 
+ <!--Start [Script] Product Quick View--> {module_contentholder,23465} <!--End [Script] Product Quick View--> 
+</body>
+</html>

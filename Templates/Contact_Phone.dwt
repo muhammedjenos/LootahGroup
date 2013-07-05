@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7"></script>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="/_assets/js/maplace.min.js"></script>
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+
+    
+    <!--line-header-->
+    <div id="container-wrapper">
+        {module_contentholder, name="[Template] Header-Area"}
+        <div class="container">
+            <div class="row-fluid">
+
+                <div id="main-body" class="default span12">
+                    <!-- TemplateBeginEditable name="ContentArea" -->
+                    {tag_pagecontent}
+                    <!-- TemplateEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+</html> 

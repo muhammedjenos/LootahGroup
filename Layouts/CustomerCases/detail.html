@@ -1,0 +1,36 @@
+<script type="text/javascript">
+$(function() {
+var item = $("#js-case-subject");
+var txt = item.text();
+txt = txt.replace("/", " - ");
+item.text(txt);
+});
+
+</script>
+<p>{module_goback}</p>
+<h2 id="js-case-subject">{tag_subject}</h2>
+<table cellspacing="0" cellpadding="0" class="case-details">
+    <tbody>
+        <tr class="odd">
+            <td class="var">Reply Date:</td>
+            <td class="val">{tag_lastupdatedate} </td>
+        </tr>
+        <tr>
+            <td class="var">Reply Message:</td>
+            <td class="val">{tag_thread}</td>
+        </tr>
+        <tr class="odd">
+            <td class="var">Files:</td>
+            <td class="val">{tag_filelist}</td>
+        </tr>
+        <tr>
+            <td class="var">Created:</td>
+            <td class="val">{tag_createdate}</td>
+        </tr>
+        <tr class="odd">
+            <td class="var">Your Details:</td>
+            <td class="val">{tag_crmform}</td>
+        </tr>
+    </tbody>
+</table>
+<p>{module_goback}</p>

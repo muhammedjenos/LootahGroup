@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <album title="" description="" lgpath="http://hpwtemplate001.hotpressplatform.com/_photos/pghero/">
+    <img src="slide-1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta interdum arcu, eget commodo arcu laoreet vitae. Nam commodo" />
+    <img src="slide-2.jpg" alt="Proin quis leo magna, vel pharetra velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpi" />
+    <img src="slide-3.jpg" alt="bibendum massa. Sed ornare lorem in libero dapibus id tincidunt est commodo. Maecenas dapibus ante a ante ultrices sit amet tristique purus tristique." />
+    <img src="slide-4.jpg" alt="Aliquam accumsan ipsum in quam vulputate consectetur. Nullam rhoncus vestibulum sollicitudin. Nullam in erat neque. In non ante turpis." />
+    <img src="slide-5.jpg" alt="Nullam faucibus feugiat metus, id viverra quam adipiscing sodales. Morbi turpis justo, gravida sed eleifend a, eleifend eget risus. Mauris consectetur egestas risus," />
+  </album>
+</gallery>

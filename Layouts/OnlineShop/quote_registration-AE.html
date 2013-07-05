@@ -1,0 +1,128 @@
+<div class="row-fluid">
+	<div class="span4 box">
+		<h4>NEED HELP</h4>
+		If you require any additional information about any product before you place an order, call us at
+		<br>
+		+971 4 2231520 ext 224
+		<br>
+		<br>
+		You can also write to 
+        Info@lootahpremiumfoods.ae
+		<br>
+		for any issues related to our online purchase or past orders.
+	</div>
+	<div class="span8">
+		<h1>Order Processing</h1>
+		<p>
+			Please make sure you fill in all the fields required for us to process the order quickly and efficiently. Upon submission one of our representative will contact you to confirm your order and payment terms.
+		</p>
+		<form  name="catwebformform85412" onsubmit="return checkWholeForm85412(this)" action="/FormProcessv2.aspx?WebFormID=62692&amp;OID={module_oid}&amp;OTYPE={module_otype}&amp;EID={module_eid}&amp;CID={module_cid}" method="post" enctype="multipart/form-data">
+			<div class="webform order-form">
+				<div class="row-fluid">
+					<div class="span6 item">
+						<label for="FirstName">
+							First Name
+							<span class="req">*</span>
+						</label>
+						<input type="text" name="FirstName" id="FirstName" class="cat_textbox span12" maxlength="255" value="{module_firstname}" />
+					</div>
+
+					<div class="span6 item">
+						<label for="LastName">
+							Last Name
+							<span class="req">*</span>
+						</label>
+						<input type="text" name="LastName" id="LastName" class="cat_textbox span12" maxlength="255" value="{module_lastname}" />
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span6 item">
+						<label for="EmailAddress">
+							Email Address
+							<span class="req">*</span>
+						</label>
+						<input type="text" name="EmailAddress" id="EmailAddress" class="cat_textbox span12" maxlength="255"  value="{module_emailaddress}" />
+						{module_ccsecurity}
+					</div>
+					<div class="span6 item">
+						<label for="Company">
+							Company
+							<span class="req">*</span>
+						</label>
+						<input type="text" name="Company" id="Company" class="cat_textbox span12" maxlength="255"  value="{module_company}" />
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span6 item">
+						<label for="WorkPhone">
+							Work Phone Number
+							<span class="req">*</span>
+						</label>
+						<input type="text" name="WorkPhone" id="WorkPhone" class="cat_textbox span12" maxlength="255"  value="{module_workphone}" />
+					</div>
+					<div class="span6 item">
+						<label for="CellPhone">
+							Cell Phone Number
+						</label>
+						<input type="text" name="CellPhone" id="CellPhone" class="cat_textbox span12" maxlength="255"  value="{module_cellphone}" />
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="item span12">
+						<label for="CAT_Custom_298957">Other Instructions</label>
+						<textarea name="CAT_Custom_298957" id="CAT_Custom_298957" cols="10" rows="4" class="cat_listbox span12" onkeydown="if(this.value.length>=4000)this.value=this.value.substring(0,3999);"></textarea>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="">
+						<input class="cat_button" type="submit" value="PLACE THE ORDER" id="catwebformbutton" />
+						<button id="show-cart" class="btn btn-secondary">What is in my cart?</button>
+					</div>
+				
+				</div>
+			</div>
+			<script type="text/javascript" src="http://lootah.mjmediastudio.com/CatalystScripts/ValidationFunctions.js"></script>
+	<script type="text/javascript">
+//<![CDATA[
+var submitcount85412 = 0;function checkWholeForm85412(theForm){var why = "";if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name"); if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name"); if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if (theForm.Company) why += isEmpty(theForm.Company.value, "Company Name"); if (theForm.WorkPhone) why += isEmpty(theForm.WorkPhone.value, "Work Phone Number"); if(why != ""){alert(why);return false;}if(submitcount85412 == 0){submitcount85412++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+//]]>
+</script>
+		</form>
+
+		<div class="shopping-cart-preview hide"></div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	
+		if($('div.shopping-cart-preview').length === 0){return;}
+		
+		function getShoppingCart() {
+			$.get('/OrderRetrievev2.aspx', function(data) {
+				var results = $(data).find('div.mini-shopping-cart-source').html();	
+				$('div.shopping-cart-preview').html(results);
+				console.log(data);
+			});	
+		}
+		
+		getShoppingCart();
+		
+		$('.productSubmitInput').each(function(){
+			var addToCart = $(this).attr('onclick').replace('return false;','');
+			$(this).attr('onclick', '');
+			
+			$(this).click(function(){
+				$(this).attr('onclick', '');
+				eval(addToCart);
+				getShoppingCart();
+			});
+		});
+
+		$('#show-cart').on("click", function(e){
+			e.preventDefault();
+			$('.shopping-cart-preview').slideDown();
+		});
+		
+	});
+</script>

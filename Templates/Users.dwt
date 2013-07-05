@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title></title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    {module_contentholder,name="[Template] Header"}
+    <!-- Other scripts -->
+    <script type="text/javascript">window.ISLOGGEDIN = {module_isloggedin};</script>
+</head>
+<body>
+    <!--line-header-->
+    <div id="container-wrapper" class="container">
+        {module_contentholder, name="[Template] Header-Area"} 
+        <div class="body-wrapper default-template">
+            <div class="row-fluid">
+                <p class="strong">You are logged in as <strong>{module_firstname} {module_lastname}</strong>. <br>
+                    If you are not {module_firstname} {module_lastname}, kindly <a href="/logoutprocess.aspx">Sign out</a> and sign in with your current account.</p> <br>
+                <div id="catalogue-teaser" class="aside span3">
+                    <div class="categories">
+                        <div class="subcatalog-list">
+                            <h2>My Account</h2>
+                            <ul>
+                                <li><a href="/users/history">Account History</a></li>
+                                <li><a href="/users/wishlist">Wish List</a></li>
+                                <li><a href="/users/settings">Account Settings</a></li>
+                                <li><a href="/logoutprocess.aspx">Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="main-body" class="span9">
+                    <!-- TemplateBeginEditable name="ContentArea" -->
+                    {tag_pagecontent}
+                    <!-- TemplateEndEditable --> </div>
+            </div>
+            {module_contentholder,name="[Template] Footer"}
+        </div>
+        <div id="copyright-bar">{module_contentholder, name="copyright-bar"}</div>
+    </div>
+</body>
+</html>
