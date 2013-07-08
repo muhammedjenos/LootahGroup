@@ -373,6 +373,7 @@ body#user-phone .system-message-green {
 }
 #members-nav{
 	text-align: right;
+	
 }
 .member-0 {
 	display: none;
@@ -1176,7 +1177,7 @@ br.clearabove {
 	text-decoration: none;
 	font-size: 13px;
 	display: block;
-	line-height: 30px;
+	line-height: 25px;
 }
 .subcatalog-list ul li a:hover, .subcatalog-list ul li a:active, .subcatalog-list ul li.selected a:link {
 	text-decoration: none;
